@@ -35,3 +35,91 @@
 + Fork：把项目复制到自己账户下进行更改的人数
 + code：可以将代码下载本地
 + README.md：说明书，告知仓库的相关信息
+
+### Git与GIthub
+
+####  合作
+
+1. 推送本地项目到Github
+
+   ```
+   git init     //初始化仓库
+   
+   git add .    //将所有修改和未追踪文件添加到暂存区  (git add <file>是追踪新文件或暂存修改)
+   
+   git commit  -m "注释"    //提交更改
+   
+   git remote add origin<URL>
+   
+   git push -u oringin main(分支)
+   ```
+
+2. 从Github更新本地代码
+
+   ```
+   git pull origin main  //拉取远程main分支的更新基本语法
+   ```
+
+#### 查看
+
+1. 查看状态
+
+   ```
+   git status
+   ```
+
+2. 查看提交历史
+
+   ```
+   git log    //完整历史
+   
+   git log --oneline   //简洁模式
+   ```
+
+#### 分支管理
+
+1. 创建与切换分支
+
+   ```
+   git branch < 分支名>   //创建分支
+   
+   git checkout <分支名>   //切换分支
+   ```
+
+2. 合并分支
+
+   ```
+   git checkout main
+   
+   git merge <分支名>
+   ```
+
+3. 删除分支
+
+   ```
+   git branch -d <分支名>  //删除已合并的分支
+   
+   git branch -D <分支名>  //删除未合并的分支
+   ```
+
+#### 远程仓库
+
+1. 推送代码
+
+   ```
+   git push -u origin main  //首次推送设置上游分支
+   
+   git push  //后续推送
+   ```
+
+   
+
+2. 拉取代码
+
+   ```
+   git pull origin main   //拉取远程更新并合并
+   
+   git fetch origin     //仅获取远程更新不合并
+   ```
+
+   
