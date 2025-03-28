@@ -1,12 +1,20 @@
 ## Github学习笔记
 
+1. ##### Github页面操作
+
 ![image-20250323161503197](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250323161503197.png)
 
-+ repositories：储存库
++ repositories：储存库(存放代码与文件)
   + 左侧是我的项目
   + 右侧是根据喜好推荐的项目
 
-+ pull requests：参与或修改别人项目时，提出申请。
++ pull requests：参与或修改别人项目时，提出申请将更改合并到主分支。
+
++ commit：提交对文件的更改
+
++ Insights：数据分析
+
++ Security：安全报告
 
 + 右上角的图标可以打开侧边栏。
 
@@ -20,6 +28,22 @@
 
 + stars：相当于收藏功能
 
++ Your gists：个人代码片段
+
++ Your organizations：个人加入的组织
+
++ Your enterprises：个人加入的企业
+
++ Your sponsors：个人赞助情况
+
++ Feature preview：功能预览
+
++ GitHub Docs：GitHub文档
+
++ GitHub Support：GitHub支持
+
++ GitHub Community：GitHub 社区
+
   ![image-20250323162828392](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250323162828392.png)搜索框输入关键词得到有关项目
 
   ![image-20250323163057119](C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20250323163057119.png)
@@ -32,13 +56,11 @@
 点击进入一个页面，其中：
 
 + Issues：评论/讨论页
-+ Fork：把项目复制到自己账户下进行更改的人数
++ Fork：复制仓库，生成其他用户项目副本的操作
 + code：可以将代码下载本地
 + README.md：说明书，告知仓库的相关信息
 
-### Git与GIthub
-
-####  合作
+2. ##### Git与GIthub
 
 1. 推送本地项目到Github
 
