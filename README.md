@@ -26,3 +26,8 @@ HTML+CSS+JS学习笔记
 
 + 导入
 + 变量与数据类型
+
+### 第四阶段考核任务
+#### 1.[HTML](https://github.com/gjyovo/Tasks/blob/main/docs/4%E6%8B%9B%E6%96%B0%E7%BD%91%E7%AB%99%E5%A4%8D%E5%88%BB/index.html)
+#### 2.[CSS](https://github.com/gjyovo/Tasks/blob/main/docs/4%E6%8B%9B%E6%96%B0%E7%BD%91%E7%AB%99%E5%A4%8D%E5%88%BB/css.css)
+#### 3.[JS](https://github.com/gjyovo/Tasks/blob/main/docs/4%E6%8B%9B%E6%96%B0%E7%BD%91%E7%AB%99%E5%A4%8D%E5%88%BB/javascript.js)
