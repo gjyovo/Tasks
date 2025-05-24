@@ -1,6 +1,5 @@
 *{
     margin: 5px;
-    padding: 0;
 }
 .background_Homepage{
     width: 100%;
@@ -18,7 +17,7 @@ ul {
 }
 /* 导航栏整体样式 */
 #homepage-box nav {
-    position: fixed; /* 使用固定定位 */
+    position: fixed; /* 固定定位 */
     width: 95%; 
     top: 10px; /* 设置元素的顶部与父容器顶部的固定距离 */
     z-index: 1000000; /* 设置堆叠层级 */
@@ -41,9 +40,9 @@ ul {
     color: white; 
 }
 #homepage-box #top-nav li.space a {
-    text-decoration: none;
-    outline: none;
-    color: inherit;/* 去除原本的超链接样式并继承父元素颜色样式 */
+    text-decoration: none; /* 去除下划线 */ 
+    outline: none; /* 去除轮廓线 */
+    color: inherit; /* 继承父元素颜色样式 */
 }
 
 /* 顶部导航栏每个导航项的悬停样式 */
@@ -102,6 +101,8 @@ ul {
     height: 200px;
     border-radius: 20px;
 }
+
+
 /*开始Introduction部分*/
 #Introductionback{
     position: relative;
@@ -115,8 +116,7 @@ ul {
     margin-top: 5%;
     font-size: 60px;
     color: rgb(37, 7, 170);
-    display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
 }
 #every .card{
     display: flex;
@@ -128,7 +128,7 @@ ul {
     padding: 20px 30px; /* 设置容器内边距 */
     align-items: center; /* 设置元素在交叉轴上居中对齐 */
     justify-content: space-between; /* 设置元素在主轴上间距相等,而且第一个和最后一个元素分别紧贴容器的两端 */
-    border: 4px solid #8b8a8a; 
+    border: 4px solid #8b8a8a;  /* 宽度为4px的实线边框 */
     background-color: #fff; 
     border-radius: 20px; 
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* 设置阴影(X轴偏移量,Y轴偏移量,模糊程度,颜色) */
@@ -149,7 +149,7 @@ ul {
     border: 4px solid #8b8a8a; 
     background-color: #fff; 
     border-radius: 20px; 
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* 设置阴影(X轴偏移量,Y轴偏移量,模糊程度,颜色) */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* 设置阴影:X轴偏移量,Y轴偏移量,模糊程度,颜色 */
     width: 90%; 
     max-width: 1000px; /* 设置最大宽度 */
     min-height: 400px; /* 设置最小高度 */
@@ -185,6 +185,8 @@ ul {
 .pink-title{
     color: pink;
 }
+
+
 /*aboutus部分*/
 #about-box {
     display: flex;
@@ -222,17 +224,15 @@ ul {
 #about-box .about-card {
     display: flex; /* 使用弹性布局 */
     justify-content: center; /* 设置元素在主轴上居中对齐 */
+    align-items: center;
     width: 100%; /* 设置宽度。“px”：设置元素宽度固定大小;“%”：设置元素宽度相对于父容器宽度的百分比 */
     flex-direction: column;/* 文字与图片纵向排布 */
     margin-top: 15%;
     z-index: 1;
     gap: 15px;/* 元素间隔 */
-}
-#about-box .about-card {
     max-width: 130px; /* 设置最大宽度 */
     padding: 20px;
     border: 5px solid rgb(110, 10, 122); /* 设置边框(粗细、样式、颜色) */
-    text-align: center; /* 设置文本或行内元素在父容器内水平居中 */
     background-color: #fff; /* 设置背景颜色 */
     border-radius: 15px; /* 设置圆角大小 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 设置阴影(X轴偏移量,Y轴偏移量,模糊程度,颜色) */
@@ -244,7 +244,7 @@ ul {
     transition: 0.5s;
 }
 .about-butterfly{
-    float: right;
+    float: right; /* 浮动在右侧 */
     width: 180px;
     z-index: 100;
     padding-top: 50px;
@@ -303,6 +303,8 @@ ul {
     min-height: 400px; /* 设置最小高度 */
     background-color: #fff7e9ad;
 }
+
+
 /* Contact Us 装饰部分具体样式 */
 #contact-box .chameleon {
     position: absolute; 
@@ -367,7 +369,6 @@ ul {
     max-width: 600px; /* 设置最大宽度 */
     color: #000000;
     font-size: 25px;
-    word-wrap: break-word; /* 设置自动换行 */
 }
 #contact-box .ps{
     color: #8b8a8a;
@@ -380,7 +381,6 @@ ul {
     justify-content: center; /* 设置元素在主轴上居中对齐 */
     align-items: center; /* 设置元素在交叉轴上居中对齐 */
     gap: 20px;
-    transform: translateX(-30px); /* 设置元素沿X轴移动的距离 */
     z-index: 100000;
 }
 .contact-link {
@@ -400,6 +400,8 @@ ul {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 设置阴影(X轴偏移量,Y轴偏移量,模糊程度,颜色) */
     transform: scale(1.1); /* 设置鼠标悬停时元素的放大倍数 */
 }
+
+
 /* qa */
 #qa-box {
     display: flex;
@@ -455,3 +457,4 @@ ul {
     border-radius: 10px; /* 设置圆角大小 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 设置阴影(X轴偏移量,Y轴偏移量,模糊程度,颜色) */
     transition: all 0.3s ease; 
+}
