@@ -205,7 +205,8 @@ JS  ：页面交互与功能
 + 外部样式表(External Stylesheet)
 
   ```
-  <link rel="stylesheet" href="文件路径（./css/style.css)">并在新创立文件夹css内的style.css中写入
+  <link rel="stylesheet" href="文件路径（./css/style.css)">
+   并在新创立文件夹css内的style.css中写入
   h1{
         color:red;
     } 
@@ -275,7 +276,7 @@ JS  ：页面交互与功能
    
    - 文本颜色color；
    
-   - 背景颜色background color；
+   - ==背景颜色background color；
    
    - 边框颜色border color。
    
@@ -311,7 +312,7 @@ JS  ：页面交互与功能
 
    ```
    html中添加:
-   <meta name="viewport" content="width=device-width(将视口宽度设置为设备理想宽度）, initial-scale=1.0（缩放比例1;1)">
+   <meta name="viewport" content="width=device-width(将视口宽度设置为设备理想宽度）, initial-scale=1.0（缩放比例1:1)">
    css中：
    @media [媒体类型] and (媒体特性) {
      /* 符合条件时应用的CSS样式 */
@@ -401,13 +402,6 @@ JS  ：页面交互与功能
     }
 
     .item2 {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    }
-
-    .item3 {
     flex: 1;
     display: flex;
     justify-content: center;
